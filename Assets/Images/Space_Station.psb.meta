@@ -1,0 +1,441 @@
+fileFormatVersion: 2
+guid: a70849471de469a408bbb1fb0bdb2346
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: Normal Controls
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1092
+      width: 1920
+      height: 1080
+    spriteID: ae7f7f6cb8c448e45a762cc767c3c007
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 1092}
+  - name: Layer 69
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1884
+      y: 3349
+      width: 14
+      height: 14
+    spriteID: edc1a554cd99e364e83837466f9426ba
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 723, y: 2851}
+  - name: Layer 68
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 775
+      y: 3268
+      width: 398
+      height: 134
+    spriteID: b47d695aa98ef4e449d52a9a7309b71b
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -196, y: 2834}
+  - name: Critical Controls
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 1920
+      height: 1080
+    spriteID: d06c59d2dafb8784e86055c073e93784
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4}
+  - name: Glass Crack
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3268
+      width: 763
+      height: 422
+    spriteID: 27745a7698ba0a04ba4b36b62078a397
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -156, y: 2610}
+  - name: All Systems Critical
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1181
+      y: 3349
+      width: 695
+      height: 49
+    spriteID: 5c9a8765a703d0d4f9da16a436c73195
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 353, y: 3165}
+  - name: All Systems Functional
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 775
+      y: 3489
+      width: 781
+      height: 48
+    spriteID: 22f37d582e4b45e42ae792154d2d6d4f
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -148, y: 3301}
+  - name: All Systems Critical_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1181
+      y: 3268
+      width: 597
+      height: 73
+    spriteID: 7d92cd399ed98134490e007a216f7aad
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 978, y: 2763}
+  - name: On path to uranus
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 775
+      y: 3410
+      width: 533
+      height: 71
+    spriteID: db26eae3bee5887428a29b34b2b62f2e
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 563, y: 2904}
+  - name: Red BG
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2180
+      width: 1920
+      height: 1080
+    spriteID: 64fc5729463122b41a39d861336c6b64
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 2180}
+  - name: Blue BG
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1932
+      y: 4
+      width: 1920
+      height: 1080
+    spriteID: 89956ab285d37e34290733aa69d16372
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1932, y: 4}
+  platformSettings: []
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 2048
+  importedTextureHeight: 2048
+  documentSize: {x: 1920, y: 1080}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
+  textureActualWidth: 4096
+  textureActualHeight: 4096
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Critical Controls
+    spriteName: Critical Controls
+    isGroup: 0
+    parentIndex: -1
+    spriteID: d06c59d2dafb8784e86055c073e93784
+    layerID: 91
+    mosaicPosition: {x: 4, y: 4}
+  - name: Normal Controls
+    spriteName: Normal Controls
+    isGroup: 0
+    parentIndex: -1
+    spriteID: ae7f7f6cb8c448e45a762cc767c3c007
+    layerID: 82
+    mosaicPosition: {x: 4, y: 1092}
+  - name: Glass Crack
+    spriteName: Glass Crack
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 27745a7698ba0a04ba4b36b62078a397
+    layerID: 92
+    mosaicPosition: {x: 4, y: 3268}
+  - name: Layer 69
+    spriteName: Layer 69
+    isGroup: 0
+    parentIndex: -1
+    spriteID: edc1a554cd99e364e83837466f9426ba
+    layerID: 81
+    mosaicPosition: {x: 1884, y: 3349}
+  - name: Layer 68
+    spriteName: Layer 68
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b47d695aa98ef4e449d52a9a7309b71b
+    layerID: 80
+    mosaicPosition: {x: 775, y: 3268}
+  - name: All Systems Critical
+    spriteName: All Systems Critical
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 5c9a8765a703d0d4f9da16a436c73195
+    layerID: 89
+    mosaicPosition: {x: 1181, y: 3349}
+  - name: All Systems Functional
+    spriteName: All Systems Functional
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 22f37d582e4b45e42ae792154d2d6d4f
+    layerID: 87
+    mosaicPosition: {x: 775, y: 3489}
+  - name: All Systems Critical
+    spriteName: All Systems Critical_1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 7d92cd399ed98134490e007a216f7aad
+    layerID: 86
+    mosaicPosition: {x: 1181, y: 3268}
+  - name: On path to uranus
+    spriteName: On path to uranus
+    isGroup: 0
+    parentIndex: -1
+    spriteID: db26eae3bee5887428a29b34b2b62f2e
+    layerID: 85
+    mosaicPosition: {x: 775, y: 3410}
+  - name: Red BG
+    spriteName: Red BG
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 64fc5729463122b41a39d861336c6b64
+    layerID: 90
+    mosaicPosition: {x: 4, y: 2180}
+  - name: Blue BG
+    spriteName: Blue BG
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 89956ab285d37e34290733aa69d16372
+    layerID: 84
+    mosaicPosition: {x: 1932, y: 4}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+  generateGOHierarchy: 0
+  textureAssetName: Space_Station Texture
+  prefabAssetName: Space_Station Prefab
+  spriteLibAssetName: Space_Station Sprite Lib
+  secondarySpriteTextures: []
