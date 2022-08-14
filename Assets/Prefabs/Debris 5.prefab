@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: -8926942261975935712}
   - component: {fileID: 2008928724552979715}
   - component: {fileID: 6906513938859910738}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Debris 5
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -107,7 +107,7 @@ GameObject:
   - component: {fileID: 8028740755906269218}
   - component: {fileID: 8028740755906269223}
   - component: {fileID: 8028740755906269221}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Layer 26
   m_TagString: Untagged
   m_Icon: {fileID: 0}
