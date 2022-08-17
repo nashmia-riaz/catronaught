@@ -10,6 +10,7 @@ public class ScrollingObject : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (GameManager.instance.isGameOver || GameManager.instance.isGamePaused) return;
         transform.position += transform.right * -speed;
     }
 

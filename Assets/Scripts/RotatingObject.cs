@@ -24,6 +24,8 @@ public class RotatingObject : MonoBehaviour
 
     private void LateUpdate()
     {
+        if (GameManager.instance.isGameOver || GameManager.instance.isGamePaused) return;
+
         transform.Rotate(0, 0, RPM * Time.deltaTime * (rotateClockwise ? 1 : -1));
     }
 }

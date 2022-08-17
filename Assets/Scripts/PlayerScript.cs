@@ -19,7 +19,7 @@ public class PlayerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (isPlayerDead) return;
+        if (isPlayerDead || GameManager.instance.isGamePaused || GameManager.instance.isGameOver) return;
 
         transform.Rotate(0, 0, RPM * Time.deltaTime* (rotateAntiClockwise ? 1 : -1));
         transform.position += transform.up * thrusterForce;
@@ -39,6 +39,8 @@ public class PlayerScript : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        if (GameManager.instance.isGamePaused || GameManager.instance.isGameOver) return;
+
         if (collision.gameObject.tag == "Obstacle")
         {
             isPlayerDead = true;

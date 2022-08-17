@@ -21,9 +21,50 @@ public class UIHandler : MonoBehaviour
     [SerializeField]
     AudioClip crashSound;
 
+    [SerializeField]
+    Image soundImage;
+
+    [SerializeField]
+    Sprite muteSprite, unmuteSprite;
+
+    bool isAudioMuted = false;
+
+    [SerializeField]
+    AudioSource musicSource, sfxSource;
+
     private void Start()
     {
+        isAudioMuted = PlayerPrefs.GetInt("Sound", 1) == 0;
+        SetAudio();
         DontDestroyOnLoad(blackScreen.gameObject);
+    }
+
+    public void ClickLink(string link)
+    {
+        Application.OpenURL(link);
+    }
+    void SetAudio()
+    {
+        if (!isAudioMuted)
+        {
+            soundImage.sprite = unmuteSprite;
+            musicSource.volume = sfxSource.volume = 0.5f;
+        }
+        else
+        {
+            musicSource.volume = sfxSource.volume = 0;
+            soundImage.sprite = muteSprite;
+        }
+
+    }
+
+    public void MuteAudio()
+    {
+        isAudioMuted = !isAudioMuted;
+
+        SetAudio();
+
+        PlayerPrefs.SetInt("Sound", isAudioMuted ? 0 : 1);
     }
 
     void OnEnable()
