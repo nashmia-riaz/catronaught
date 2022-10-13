@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using GooglePlayGames;
 using GooglePlayGames.BasicApi;
+using UnityEngine.UI;
 
 public class GPGSManager : MonoBehaviour
 {
@@ -13,7 +14,7 @@ public class GPGSManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if(instance == null)
+        if (instance == null)
         {
             instance = this;
             DontDestroyOnLoad(this.gameObject);
@@ -22,17 +23,18 @@ public class GPGSManager : MonoBehaviour
         {
             Destroy(this.gameObject);
         }
-
-
+    }
+    private void Awake()
+    {
+        SignIn();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void SignIn()
     {
         PlayGamesPlatform.Activate();
         PlayGamesPlatform.Instance.Authenticate(ProcessAuthentication);
-
     }
+
     internal void ProcessAuthentication(SignInStatus status)
     {
         if (status == SignInStatus.Success)
@@ -49,16 +51,23 @@ public class GPGSManager : MonoBehaviour
     {
         if (!signedIn) return;
 
-        Social.ReportScore((long) score, GPGSIds.leaderboard_top_10_players, (bool success) =>
+        Social.ReportScore((long) score, GPGSIds.leaderboard_top_players, (bool success) =>
         {
             if (success)
             {
-
+                Debug.Log("Reported score successfully");
             }
             else
             {
-
+                Debug.Log("Failed to report score");
             }
         });
+    }
+
+    public void ShowLeaderboard()
+    {
+        if (!signedIn) return;
+
+        PlayGamesPlatform.Instance.ShowLeaderboardUI();
     }
 }

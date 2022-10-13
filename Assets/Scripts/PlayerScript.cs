@@ -11,13 +11,19 @@ public class PlayerScript : MonoBehaviour
     float RPM;
 
     [SerializeField]
-    [Range(0, 0.1f)]
+    [Range(0, 0.2f)]
     float thrusterForce;
 
     bool isPlayerDead = false;
 
+    private void Start()
+    {
+       Vector3 bottomLeft = Camera.main.ScreenToWorldPoint(Vector3.zero); 
+        transform.position = new Vector3(bottomLeft.x + gameObject.GetComponent<Collider2D>().bounds.size.x, 0, 0);
+    }
+
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if (isPlayerDead || GameManager.instance.isGamePaused || GameManager.instance.isGameOver) return;
 
@@ -45,7 +51,7 @@ public class PlayerScript : MonoBehaviour
         {
             isPlayerDead = true;
             Vector2 forceDirection = collision.transform.position - transform.position;
-            gameObject.GetComponent<Rigidbody2D>().AddForce(-forceDirection * 2, ForceMode2D.Impulse);
+            gameObject.GetComponent<Rigidbody2D>().AddForce(-forceDirection * 5, ForceMode2D.Impulse);
             gameObject.GetComponent<Rigidbody2D>().angularVelocity = 300f;
             GameManager.instance.GameOver();
         }

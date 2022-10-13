@@ -1,9 +1,9 @@
 lastUpgrade=01101
 proj.pluginVersion=0.11.01
-proj.AppId=905505303513
-and.BundleId=com.PanashGames.Catronaught
-proj.classDir=Assets
+proj.AppId=563490984922
+and.BundleId=com.NashMakesGames.TheCatronaut
+proj.classDir=Assets%2fScripts
 proj.ConstantsClassName=GPGSIds
-and.ResourceData=%3c%3fxml+version%3d%221.0%22+encoding%3d%22utf-8%22%3f%3e%0d%0a%3c%21--Google+Play+game+services+IDs.+Save+this+file+as+res%2fvalues%2fgames-ids.xml+in+your+project.--%3e%0d%0a%3cresources%3e%0d%0a++%3c%21--app_id--%3e%0d%0a++%3cstring+name%3d%22app_id%22+translatable%3d%22false%22%3e905505303513%3c%2fstring%3e%0d%0a++%3c%21--package_name--%3e%0d%0a++%3cstring+name%3d%22package_name%22+translatable%3d%22false%22%3ecom.PanashGames.Catronaught%3c%2fstring%3e%0d%0a++%3c%21--leaderboard+Top+10+Players--%3e%0d%0a++%3cstring+name%3d%22leaderboard_top_10_players%22+translatable%3d%22false%22%3eCgkI2dfJoq0aEAIQAQ%3c%2fstring%3e%0d%0a%3c%2fresources%3e
+and.ResourceData=%3c%3fxml+version%3d%221.0%22+encoding%3d%22utf-8%22%3f%3e%0d%0a%3c%21--Google+Play+game+services+IDs.+Save+this+file+as+res%2fvalues%2fgames-ids.xml+in+your+project.--%3e%0d%0a%3cresources%3e%0d%0a++%3c%21--app_id--%3e%0d%0a++%3cstring+name%3d%22app_id%22+translatable%3d%22false%22%3e563490984922%3c%2fstring%3e%0d%0a++%3c%21--package_name--%3e%0d%0a++%3cstring+name%3d%22package_name%22+translatable%3d%22false%22%3ecom.NashMakesGames.TheCatronaut%3c%2fstring%3e%0d%0a++%3c%21--leaderboard+Top+Players--%3e%0d%0a++%3cstring+name%3d%22leaderboard_top_players%22+translatable%3d%22false%22%3eCgkI2qe4lbMQEAIQAA%3c%2fstring%3e%0d%0a%3c%2fresources%3e
 and.ClientId=
 android.SetupDone=true

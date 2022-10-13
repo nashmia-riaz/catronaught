@@ -120,8 +120,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 997
-      y: 4
+      x: 4
+      y: 996
       width: 984
       height: 984
     spriteID: c726098248a518f4da0ddfe9b9f52a47
@@ -134,7 +134,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 18, y: -1003}
+    uvTransform: {x: -975, y: -11}
   - name: Group 2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -143,7 +143,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 996
+      y: 1988
       width: 983
       height: 983
     spriteID: d0e7935fcb724ad42bf1a4cb4da7c3eb
@@ -156,7 +156,139 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -30, y: 29}
+    uvTransform: {x: -30, y: 1021}
+  - name: Group 1 copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 997
+      y: 4
+      width: 984
+      height: 984
+    spriteID: dbbf35c448342db4188c89128c03479f
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 18, y: -1003}
+  - name: Group 2 copy 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 996
+      y: 996
+      width: 983
+      height: 983
+    spriteID: f0e18d4ebea246d44bad3d12460ecf8b
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 962, y: 29}
+  - name: Group 2 copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1987
+      y: 996
+      width: 983
+      height: 983
+    spriteID: 7690aba8b785030489510d3c817ebbee
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1953, y: 29}
+  - name: Group 1 copy 3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1989
+      y: 4
+      width: 984
+      height: 984
+    spriteID: 6882795ad665f1742ad07515ad76808e
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1010, y: -1003}
+  - name: Group 1 copy 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2981
+      y: 4
+      width: 984
+      height: 984
+    spriteID: eacfa4e8f4c6d6c4c8ce51132af6f393
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2002, y: -1003}
+  - name: Group 2 copy 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2978
+      y: 996
+      width: 983
+      height: 983
+    spriteID: 82b27b501bb9e8d4d9c1756a2f86c4c1
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2944, y: 29}
   platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
@@ -169,13 +301,41 @@ ScriptedImporter:
   keepDupilcateSpriteName: 0
   spriteCategoryList:
     categories: []
-  textureActualWidth: 2048
-  textureActualHeight: 2048
+  textureActualWidth: 4096
+  textureActualHeight: 4096
   spritePackingTag: 
   resliceFromLayer: 0
   characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
+  - name: Group 1 copy
+    spriteName: Group 1 copy
+    isGroup: 0
+    parentIndex: -1
+    spriteID: dbbf35c448342db4188c89128c03479f
+    layerID: 33
+    mosaicPosition: {x: 997, y: 4}
+  - name: Group 2 copy 3
+    spriteName: Group 2 copy 3
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f0e18d4ebea246d44bad3d12460ecf8b
+    layerID: 40
+    mosaicPosition: {x: 996, y: 996}
+  - name: Group 2 copy
+    spriteName: Group 2 copy
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 7690aba8b785030489510d3c817ebbee
+    layerID: 32
+    mosaicPosition: {x: 1987, y: 996}
+  - name: Group 1 copy 3
+    spriteName: Group 1 copy 3
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 6882795ad665f1742ad07515ad76808e
+    layerID: 39
+    mosaicPosition: {x: 1989, y: 4}
   - name: New group
     spriteName: New group
     isGroup: 0
@@ -183,20 +343,34 @@ ScriptedImporter:
     spriteID: f0019f6d217c49d4086bd70c68042553
     layerID: 25
     mosaicPosition: {x: 4, y: 4}
+  - name: Group 1 copy 2
+    spriteName: Group 1 copy 2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: eacfa4e8f4c6d6c4c8ce51132af6f393
+    layerID: 38
+    mosaicPosition: {x: 2981, y: 4}
+  - name: Group 2 copy 2
+    spriteName: Group 2 copy 2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 82b27b501bb9e8d4d9c1756a2f86c4c1
+    layerID: 37
+    mosaicPosition: {x: 2978, y: 996}
   - name: Group 1
     spriteName: Group 1
     isGroup: 0
     parentIndex: -1
     spriteID: c726098248a518f4da0ddfe9b9f52a47
     layerID: 24
-    mosaicPosition: {x: 997, y: 4}
+    mosaicPosition: {x: 4, y: 996}
   - name: Group 2
     spriteName: Group 2
     isGroup: 0
     parentIndex: -1
     spriteID: d0e7935fcb724ad42bf1a4cb4da7c3eb
     layerID: 23
-    mosaicPosition: {x: 4, y: 996}
+    mosaicPosition: {x: 4, y: 1988}
   characterData:
     bones: []
     parts: []

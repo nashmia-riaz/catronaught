@@ -37,6 +37,8 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     GameObject pauseButton, pauseMenu, unpauseButton, restartButton;
 
+    public float difficulty = 0;
+
     private void Awake()
     {
         if (instance == null)
@@ -81,6 +83,7 @@ public class GameManager : MonoBehaviour
         {
             currentPlayerPosition = player.transform.position;
             distanceCovered = currentPlayerPosition - initialPlayerPosition;
+            difficulty = distanceCovered.x / 10;
             scoreText.GetComponent<Text>().text = distanceCovered.x.ToString();
         }
 
@@ -90,6 +93,7 @@ public class GameManager : MonoBehaviour
     {
         restartButton.SetActive(true);
 
+        gameOverText.SetActive(true);
         gameOverText.GetComponent<Animator>().SetTrigger("FadeIn");
         scoreText.GetComponent<Animator>().SetTrigger("FadeOut");
 
@@ -101,8 +105,6 @@ public class GameManager : MonoBehaviour
             PlayerPrefs.SetFloat("Highscore", distanceCovered.x);
             GPGSManager.instance.PostScore(distanceCovered.x);
         }
-
-
     }
 
     public void Restart()

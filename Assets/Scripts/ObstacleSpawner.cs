@@ -33,16 +33,20 @@ public class ObstacleSpawner : MonoBehaviour
         debrisSpawner.Initialize();
 
         SpawnPlanet();
-        //SpawnDebris();
     }
     public void SpawnObstacle()
     {
-        Debug.Log("Spawn object");
+        if (GameManager.instance.difficulty < 0.5f)
+        {
+            SpawnPlanet();
+            return;
+        }
+
         float randomizer = Random.value;
 
         if (randomizer < 0.5f)
             SpawnPlanet();
-        else if (randomizer < 0.85)
+        else if (randomizer < 0.8)
             SpawnAsteroid();
         else
             SpawnDebris();
@@ -52,14 +56,9 @@ public class ObstacleSpawner : MonoBehaviour
         Vector3 position = Vector3.zero;
         GameObject obj = planetSpawner.GetObject();
         obj.SetActive(true);
-        float scale = Random.RandomRange(0.5f, 1f);
+        float scale = Random.Range(0.5f, 1f);
         obj.transform.localScale = Vector3.one * scale;
 
-        obj.GetComponent<SpriteRenderer>().color = new Vector4(
-            Random.Range(0.5f, 1f),
-            Random.Range(0.5f, 1f),
-            Random.Range(0.5f, 1f),
-            255);
 
         if (currentObjects.Count > 0)
         {
@@ -93,7 +92,7 @@ public class ObstacleSpawner : MonoBehaviour
         Vector3 position = Vector3.zero;
         GameObject obj = asteroidSpawner.GetObject();
         obj.SetActive(true);
-        float scale = Random.RandomRange(0.1f, 0.2f);
+        float scale = Random.Range(0.15f, 0.2f);
         obj.transform.localScale = Vector3.one * scale;
 
         float rotation = Random.Range(0f, 360f);
@@ -107,8 +106,8 @@ public class ObstacleSpawner : MonoBehaviour
             Vector2 lastObjSize = Vector2.zero;
             lastObjSize = lastObj.GetComponent<ObstacleScript>().collider.bounds.size;
 
-            float x, y = 0; 
-            x = lastObj.transform.position.x + lastObjSize.x / 2 + objSize.x / 2 + objSize.y / 2;
+            float x; 
+            x = lastObj.transform.position.x + lastObjSize.x / 1.75f + objSize.x / 1.75f;
 
             position = new Vector3(x, 0, 0);
         }
